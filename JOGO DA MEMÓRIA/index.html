@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Jogo da Memória</h1>
+
+    <div class="info">
+        <p>Tentativas: <span id="tentativas">0</span></p>
+        <button id="reiniciar">Reiniciar Jogo</button>
+        <button id="mostrarHistorico">Mostrar Histórico</button>
+    </div>
+
+    <div class="game-container" id="game">
+    </div>
+
+    <div class="modal" id="historicoModal">
+        <div class="modal-content">
+            <h3>Histórico de Tentativas</h3>
+            <ul id="historico"></ul>
+            <button id="fecharHistorico">Fechar</button>
+        </div>
+    </div>
+
+    <div id="parabens">
+        <h2>PARABÉNS!</h2>
+        <p>Você encontrou todos os pares.</p>
+        <button id="reiniciarFinal">Reiniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
